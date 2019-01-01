@@ -75,20 +75,18 @@ combination of frequencies. As this process eliminates time information,
 'windowing' is implemented. A simple windowing scheme would 'chop' the
 audio into
 
-![](C:\Users\Johnathon\Documents\media/media/image2.png){width="4.083333333333333in"
-height="0.9336023622047244in"}![](C:\Users\Johnathon\Documents\media/media/image9.png){width="4.098958880139983in"
-height="0.8919028871391076in"}
+> <img src="media/image2.png" width="408" height="93">
+> <img src="media/image9.png" width="409" height="89">
 
-**Figure 1. 5-second Raw Audio Clip of a Metal Band (above) and
-Beethoven (below).**
+> **Figure 1. 5-second Raw Audio Clip of a Metal Band (above) and
+> Beethoven (below).**
 
-![](C:\Users\Johnathon\Documents\media/media/image6.png){width="4.1875in"
-height="3.2182589676290463in"}
+> <img src="media/image6.png" width="419" height="322">
 
-**Figure 2. 5-second Frequency-Time Spectrum of intro to Beethoven's Fur
-Elise. **
+> **Figure 2. 5-second Frequency-Time Spectrum of intro to Beethoven's Fur
+> Elise. **
 
-**(notice the iconic 5-note left-hand arpeggio at the beginning)**
+> **(notice the iconic 5-note left-hand arpeggio at the beginning)**
 
 smaller clips, from which the Fourier transform can be executed on each
 clip individually. In this paper, a slightly more sophisticated
@@ -106,8 +104,7 @@ quantum mechanics vis-a-vis the Heisenberg Uncertainty Principle. In
 other words, the better you resolve the audio in the frequency domain,
 the less able you are to resolve in time, and vice-versa.
 
-![](C:\Users\Johnathon\Documents\media/media/image7.png){width="3.9583333333333335in"
-height="2.9909601924759404in"}
+> <img src="media/image7.png" width="396" height="299">
 
 > **Figure 3. Gabor transform: The raw audio is shown (above) with the
 > Gaussian function overlayed. Each snapshot in time \-- from blue to
@@ -115,8 +112,7 @@ height="2.9909601924759404in"}
 > (middle) which is subsequently Fourier Transformed (below) to retain
 > the dominant high frequency components at that time.**
 
-![](C:\Users\Johnathon\Documents\media/media/image4.png){width="3.96875in"
-height="3.052134733158355in"}
+> <img src="media/image4.png" width="397" height="305">
 
 > **Figure 4. Four Most Dominant Modes of 5 Clips from each Genre.**
 >
@@ -159,8 +155,7 @@ while **μ** is the mean across all samples of that group. The squared
 sum of these variances is given by **S**~w~. Subscripts denote each
 class.
 
-> [![](C:\Users\Johnathon\Documents\media/media/image18.png){width="3.9027777777777777in"
-> height="0.16666666666666666in"}](about:blank) (1)
+> <img src="media/image18.png" width="390" height="17"> (1)
 
 Furthermore, the cross variances, **S**~b~ , are given by Equation 2.
 Ultimately, therefore the necessity to maximize cross variance,
@@ -173,34 +168,29 @@ higher class orders, if necessary. Ultimately, the test sets are
 projected onto **ω,** as represented in Figure 5 and a weighted-mean
 discriminant value provides a threshold for decisions.
 
-> [![](C:\Users\Johnathon\Documents\media/media/image11.png){width="1.7361111111111112in"
-> height="0.16666666666666666in"}](about:blank) (2)
+> <img src="media/image11.png" width="174" height="17"> (2)
 >
 > maximize
-> [![](C:\Users\Johnathon\Documents\media/media/image5.png){width="0.4722222222222222in"
-> height="0.1527777777777778in"}](about:blank) s.t.
-> [![](C:\Users\Johnathon\Documents\media/media/image12.png){width="0.7916666666666666in"
-> height="0.1527777777777778in"}](about:blank) (3)
+> <img src="media/image5.png" width="47" height="15">
+> s.t.
+> <img src="media/image12.png" width="79" height="15"> (3)
 >
-> [![](C:\Users\Johnathon\Documents\media/media/image1.png){width="0.875in"
-> height="0.125in"}](about:blank) (4)
+> <img src="media/image1.png" width="88" height="13"> (4)
 
 Figure 6 further illustrates how the LDA projection is used for
 classification, and how it looks with real data. The weighted center of
 the projected sets determines the threshold, or decision line.
 
-![](C:\Users\Johnathon\Documents\media/media/image16.png){width="2.994792213473316in"
-height="1.445761154855643in"}
+> <img src="media/image16.png" width="299" height="145">
 
-**Figure 5. Linear Discriminant Projection Cartoon (Kutz 442)**
+> **Figure 5. Linear Discriminant Projection Cartoon (Kutz 442)**
+>
+> **(note that given the projection angle, data clusters can become mixed
+> or separated)**
 
-**(note that given the projection angle, data clusters can become mixed
-or separated)**
+> <img src="media/image17.png" width="360" height="270">
 
-![](C:\Users\Johnathon\Documents\media/media/image17.png){width="3.5989588801399823in"
-height="2.699219160104987in"}
-
-**Figure 6. Linear Discriminant Actualization, with Threshold Line**
+> **Figure 6. Linear Discriminant Actualization, with Threshold Line**
 
 Method 2: Naive Bayes Classification (NB)
 -----------------------------------------
@@ -225,19 +215,16 @@ be in state C~1~ given some state X, which is precisely what we are
 interested in. Also, if C~1~ and C~2~ are the same size, the P(C~1~) and
 P(C~2~) terms will cancel.
 
-> [![](C:\Users\Johnathon\Documents\media/media/image19.png){width="2.9166666666666665in"
-> height="0.25in"}](about:blank) (5)
+> <img src="media/image19.png" width="292" height="25"> (5)
 >
-> [![](C:\Users\Johnathon\Documents\media/media/image8.png){width="1.5416666666666667in"
-> height="0.25in"}](about:blank) (6)
+> <img src="media/image8.png" width="154" height="25"> (6)
 
-![](C:\Users\Johnathon\Documents\media/media/image14.png){width="6.213542213473316in"
-height="1.3174278215223096in"}
+> <img src="media/image14.png">
 
-**Figure 7. Classification Tree Visualization**
-
-**(notice that only 4 values are needed for classification: x1,x2,x4 and
-x5)**
+> **Figure 7. Classification Tree Visualization**
+>
+> **(notice that only 4 values are needed for classification: x1,x2,x4 and
+> x5)**
 
 Method 3: Classification & Regression Tree (CART)
 -------------------------------------------------
@@ -374,19 +361,15 @@ different window sizes for different areas on the spectrogram.
 Short-time Wavelet Transforms were not used in this study, and could be
 considered for future implementations.
 
-![](C:\Users\Johnathon\Documents\media/media/image10.png){width="3.0781255468066493in"
-height="2.3135269028871392in"}![](C:\Users\Johnathon\Documents\media/media/image15.png){width="3.073157261592301in"
-height="2.307292213473316in"}
+<img src="media/image10.png" width="308" height="231"><img src="media/image15.png" width="307" height="231">
 
-![](C:\Users\Johnathon\Documents\media/media/image3.png){width="3.093727034120735in"
-height="2.3177088801399823in"}![](C:\Users\Johnathon\Documents\media/media/image13.png){width="3.0560936132983376in"
-height="2.3177088801399823in"}
+<img src="media/image3.png" width="309" height="231"><img src="media/image13.png" width="306" height="231">
 
-**Figure 8. Classification Performance Comparison w/ Mean & Std.
-Deviation Scores**
+> **Figure 8. Classification Performance Comparison w/ Mean & Std.
+> Deviation Scores**
 
-**(Top Left: Random, Top Right: LDA, Bottom Left: NB, Bottom Right:
-CART)**
+> **(Top Left: Random, Top Right: LDA, Bottom Left: NB, Bottom Right:
+> CART)**
 
 
 # APPENDIX A 
