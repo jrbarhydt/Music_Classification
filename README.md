@@ -17,7 +17,7 @@ by J. Barhydt<sup>1</sup>
 > music band/genre classification using three machine learning methods,
 > comparing performance of each.**
 
-<sub>1- ?????This report uses http://vision.ucsd.edu/~iskwak/ExtYaleDatabase/ExtYaleB.html</sub>
+<sub>1- This code uses SGRAM, LDA_Train, and musicclip: find in root dir</sub>
 
 - [Sec.   I. \| Introduction and Overview](#introduction-and-overview)
 - [Sec.  II. \| Theoretical Background](#theoretical-background)
