@@ -219,7 +219,7 @@ P(C~2~) terms will cancel.
 >
 > <img src="media/image8.png" width="154" height="25"> (6)
 
-> <img src="media/image14.png">
+> <img src="media/image14b.png" width="621" height="132">
 
 > **Figure 7. Classification Tree Visualization**
 >
