@@ -15,7 +15,8 @@ by J. Barhydt<sup>1</sup>
 > economic modeling, speech recognition, n-body quantum system
 > reconstruction, and more. This paper demonstrates a 'toy-model' for
 > music band/genre classification using three machine learning methods,
-> comparing performance of each.**
+> comparing performance of each. Herein I will compare Naive Bayes,
+> Linear Discriminant Analysis, and Classification & Regression Trees.**
 
 <sub>1- This code uses SGRAM, LDA_Train, and musicclip: find in root dir</sub>
 
